@@ -79,9 +79,16 @@ button:hover {
 
 /* Media queries for different screen sizes */
 @media screen and (max-width: 600px) {
+    body{
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
     .game-container {
-        width: 90%; /* Full width on small screens */
+        width: 100%; /* Full width on small screens */
         padding: 10px; /* Reduce padding on smaller screens */
+        position:relative;
+        margin-left: 10%;
     }
     .controls {
         display: block; /* Show the control buttons on mobile */
@@ -97,19 +104,20 @@ button:hover {
     }
 
     .control-btn {
-        font-size: 14px; /* Smaller font size for controls */
+        font-size: 8px; /* Smaller font size for controls */
         width: 50px;
         height: 50px;
+        text-align: left;
     }
 
     #up, #down {
-        width: 70px;
-        height: 70px;
+        width: 30px;
+        height: 20px;
     }
 
     #left, #right {
-        width: 70px;
-        height: 70px;
+        width: 30px;
+        height: 20px;
     }
 }
 
