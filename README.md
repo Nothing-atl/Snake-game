@@ -4,9 +4,13 @@ A simple, interactive Snake game designed to run on both desktop and mobile brow
 Features
 
     Responsive design: The game is fully responsive and adjusts to different screen sizes, from desktop to mobile.
+    
     Touch controls: On mobile devices, the snake is controlled via virtual buttons placed at the bottom of the screen.
+    
     Pause/Resume: The game includes a Pause feature that allows players to pause and resume the game.
+    
     Restart: A Restart button is available to start a new game after the snake collides.
+    
     Score tracking: The score is updated every time the snake eats food.
 
 # Installation
